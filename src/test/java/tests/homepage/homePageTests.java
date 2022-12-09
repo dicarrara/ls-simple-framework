@@ -18,5 +18,6 @@ public class homePageTests extends ManagerForTests {
         homePage.collectListOfSolutions();
         homePage.clickMarketplaceButton();
         Assert.assertTrue(factory.marketplaceHeader.isDisplayed());
+
     }
 }
